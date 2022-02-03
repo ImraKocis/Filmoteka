@@ -50,10 +50,10 @@
              
              
              if(is_user_logged_in()){
-                require_once(get_template_directory().'/tamplates/tamplate-single-emisija-loged.php');
+                require_once(get_template_directory().'/templates/tamplate-single-emisija-loged.php');
             
              }else{
-                require_once(get_template_directory().'/tamplates/tamplate-single-emisija-logedout.php');
+                require_once(get_template_directory().'/templates/tamplate-single-emisija-logedout.php');
              }
              
         }

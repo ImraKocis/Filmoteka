@@ -21,9 +21,9 @@ function filmoteka_add_admin_page() {
 add_action( 'admin_menu', 'filmoteka_add_admin_page' );
 
 function filmoteka_theme_create_page() {
-    require_once( get_template_directory(). '/inc/tamplates/filmoteka-admin-page.php');
+    require_once( get_template_directory(). '/inc/templates/filmoteka-admin-page.php');
 }
 
 function filmoteka_theme_admin_page(){
-	require_once(get_template_directory(). '/inc/tamplates/filmoteka-admin-admin.php');
+	require_once(get_template_directory(). '/inc/templates/filmoteka-admin-admin.php');
 }
